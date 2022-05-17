@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "prisma:studio": "npx prisma studio",
+    "start": "ts-node -r tsconfig-paths/register bin/server.ts",
     "start:server": "ts-node -r tsconfig-paths/register bin/server.ts",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules bin/server.ts"
   },
